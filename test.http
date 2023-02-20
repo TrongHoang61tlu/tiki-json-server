@@ -1,0 +1,14 @@
+#Categories
+
+# @name getAllCategories
+GET http://localhost:3000/api/categories
+
+###
+
+# @name addNewcategory
+POST http://localhost:3000/api/categories
+Content-Type: application/json
+
+{
+    "name" : "aiphon 15"
+}
